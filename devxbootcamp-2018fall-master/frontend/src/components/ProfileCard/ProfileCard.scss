@@ -1,0 +1,11 @@
+@import 'style/color';
+
+.profile-card {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+
+  h3 {
+    border-bottom: 2px solid rgba($color-accent, 0.5);
+  }
+}

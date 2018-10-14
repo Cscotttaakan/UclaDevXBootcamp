@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GrowlFeed component renders matching the saved snapshot 1`] = `
+<div
+  className="growl-list"
+>
+  <div
+    className="growl-card"
+  >
+    <div
+      className="growl-meta"
+    >
+      <p
+        className="growl-user-name"
+      />
+    </div>
+    <p
+      className="growl-text"
+    >
+      Test success
+    </p>
+  </div>
+  <div
+    className="growl-card"
+  >
+    <div
+      className="growl-meta"
+    >
+      <p
+        className="growl-user-name"
+      />
+    </div>
+    <p
+      className="growl-text"
+    >
+      Test fail
+    </p>
+  </div>
+</div>
+`;

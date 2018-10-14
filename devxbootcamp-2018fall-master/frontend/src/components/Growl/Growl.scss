@@ -1,0 +1,31 @@
+@import 'style/color';
+
+.growl-card {
+  padding: 10px;
+
+  .growl-text {
+    font-size: 20px;
+    color: $color-text-dark-1;
+    line-height: 27.4px;
+  }
+
+  p {
+    font-size: 16px;
+    color: $color-text-dark-3;
+
+    &.growl-user-name {
+      font-weight: bold;
+    }
+
+    &.growl-text {
+      color: $color-text-dark-1;
+    }
+  }
+
+  .growl-meta {
+    display: flex;
+    & > * {
+      margin-right: 4px;
+    }
+  }
+}

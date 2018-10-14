@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Growl component renders as expected 1`] = `
+<div
+  className="growl-card"
+>
+  <div
+    className="growl-meta"
+  >
+    <p
+      className="growl-user-name"
+    />
+    <p
+      className="growl-created-at"
+    >
+      Oct 6, 2018 1:10 pm
+    </p>
+  </div>
+  <p
+    className="growl-text"
+  >
+    Test text
+  </p>
+</div>
+`;

@@ -1,0 +1,10 @@
+{
+  "name": "Growler",
+  "short_name": "Growler",
+  "lang": "en-US",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#224A7F",
+  "background_color": "#FCFCFC",
+  "description": "twitter clone for bruins"
+}

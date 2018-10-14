@@ -1,0 +1,20 @@
+// Grid //
+$grid-sm-breakpoint: 512px * 1.5 !default;
+$grid-md-breakpoint: $grid-sm-breakpoint * 1.5 !default;
+$grid-lg-breakpoint: $grid-md-breakpoint * 1.5 !default;
+$grid-gutter-padding: 8px !default;
+$grid-vertical-padding: 8px !default;
+
+// Typography //
+$typography-handwriting-font: 'Pangolin', cursive;
+$typography-base-font: 'Nunito', Arial, sans-serif;
+$typography-base-size: 12px !default;
+$typography-article-font: 'Source Serif Pro', Palatino, Georgia, serif;
+
+// Transitions //
+$transition-normal: 0.125s cubic-bezier(0.4, 0, 0.2, 1);
+$transition-fast: 0.0625s cubic-bezier(0.4, 0, 0.2, 1);
+$transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+// Sizes //
+$navbar-height: 70px;

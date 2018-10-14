@@ -1,0 +1,9 @@
+@import 'style/vars';
+@import 'style/color';
+@import 'style/normalize';
+@import 'style/typography';
+
+form {
+  background-color: rgba($color-primary-light, 0.3);
+  padding: 10px;
+}

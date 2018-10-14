@@ -1,0 +1,31 @@
+.home-page {
+  display: flex;
+  align-items: flex-start;
+
+  & > * {
+    margin: 0 10px;
+  }
+
+  .home-page-profile-section {
+    max-width: 300px;
+  }
+
+  .home-page-growl-feed-section {
+    flex-grow: 1;
+    & > * {
+      margin-bottom: 10px;
+      border-radius: 3px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    > * {
+      width: 100%;
+    }
+    .home-page-profile-section {
+      max-width: none;
+      margin-bottom: 20px;
+    }
+  }
+}

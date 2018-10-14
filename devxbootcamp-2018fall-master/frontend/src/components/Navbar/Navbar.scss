@@ -1,0 +1,54 @@
+@import 'style/vars';
+@import 'style/color';
+
+nav.navbar {
+  width: 100%;
+  height: $navbar-height;
+  background-color: $color-primary;
+
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .brand {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: $typography-handwriting-font;
+    a {
+      color: $color-accent;
+    }
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+
+    .link-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      margin: 5px;
+
+      a {
+        color: $color-accent;
+      }
+
+      &.new-growl,
+      &.log-out {
+        padding: 0 10px;
+        height: 100%;
+        border-radius: 4px;
+        background-color: $color-accent;
+        cursor: pointer;
+        a {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+}
